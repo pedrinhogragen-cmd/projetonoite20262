@@ -1,0 +1,121 @@
+Questão 1:
+
+nome = input("Digite seu nome: ")
+idade = input("Digite sua idade: ")
+cidade = input("Digite sua cidade: ")
+
+print("--- Informações do Usuário ---")
+print(f"Nome: {nome}")
+print(f"Idade: {idade}")
+print(f"Cidade: {cidade}")
+
+Questão 2:
+
+num1 = float(input("Digite o primeiro número: "))
+num2 = float(input("Digite o segundo número: "))
+
+soma = num1 + num2
+subtracao = num1 - num2
+multiplicacao = num1 * num2
+divisao = num1 / num2
+
+print("--- Resultados ---")
+print(f"Soma: {soma}")
+print(f"Subtração: {subtracao}")
+print(f"Multiplicação: {multiplicacao}")
+print(f"Divisão: {divisao}")
+
+Questão 3
+
+nota1 = float(input("Digite a primeira nota: "))
+nota2 = float(input("Digite a segunda nota: "))
+nota3 = float(input("Digite a terceita nota: "))
+
+media = (nota1 + nota2 + nota3) / 3
+
+print(f"A média do aluno é: {media: .2f}")
+
+Questão 4 
+
+celsius = float(input("Digite a temperatura em graus Celsius: "))
+
+fahrenheit = (celsius * 9 / 5) + 32
+
+print(f"{celsius}°C equivalente a {fahrenheit: .2f}°F")
+
+Questão 5
+
+numero = int(input("Digite um número inteiro: "))
+
+if numero > 0:
+  print(f"O número {numero} é positivo.")
+elif numero < 0:
+  print(f"O número {numero} é negativo")
+else:
+  print(f"O número {numero} é igual a zero")
+
+Questão 6
+
+num1 = float(input("Digite o primeiro número: "))
+num2 = float(input("Digite o segundo número: "))
+
+if num1 > num2:
+ print(f"O primeiro número ({num1}) é maior que o segundo ({num2}).")
+elif num2 > num1:
+  print(f"O segundo número ({num2}) é maior que o primeiro ({num1}).")
+else:
+  print(f"Os dois números possuem o mesmo valor.")
+
+
+Questão 7
+
+nota1 = float(input("Digite a primeira nota: "))
+nota2 = float(input("Digite a segunda nota: "))
+
+media = (nota1 + nota2) / 2
+
+print(f"A média do aluno é: {media: .2f}")
+
+if media >= 7.0:
+  print("Aprovado.")
+elif media >= 5.0:
+  print("Em recuperação.")
+else:
+  print("Reprovado.")
+
+Questão 8
+
+idade = float(input("Digite a sua idade: "))
+
+if idade <= 12:
+  print(f"Classificado como: Criança")
+elif idade <= 17:
+  print(f"Classificado como: Adolescente")
+elif idade <= 59:
+  print(f"Classificado como: Adulto")
+else:
+  print(f"Classificado como: Idoso")
+  
+Questão 9
+
+valor_original = float(input("Digite o valor total da compra: R$ "))
+if valor_original < 100.00:
+  percentual_desconto = 0
+elif valor_original >= 500.00:
+  percentual_desconto = 15
+else:
+  percentual_desconto = 5 
+
+valor_desconto = valor_original * (percentual_desconto / 100)
+valor_final = valor_original - valor_desconto
+
+print("--- RESUMO DA COMPRA ---")
+print(f"Valor original: R$ {valor_original: .2f}")
+print(f"Desconto ({percentual_desconto}%): R$ {valor_desconto:.2f}")
+print(f"Valor final a pagar: R$ {valor_final: .2f}")
+
+Questão 10
+
+
+
+
